@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1753023230.51278 "c:/Users/Klaus/Documents/Projetos/SEPOC Digest/Digest_SEPOC.tex" "Digest_SEPOC.pdf" "Digest_SEPOC" 1753023231.2585 0
-  "Digest_SEPOC.aux" 1753023231 2425 800e712af15a04908faff310c05049f3 "pdflatex"
-  "Digest_SEPOC.tex" 1753023229 20920 fb784d6ad3d0477e615f5f9dadfe16cd ""
+["pdflatex"] 1753746422.12565 "c:/Users/Klaus/Documents/Projetos/SEPOC Digest/Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.tex" "Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.pdf" "Digest_SEPOC_Trends_Technologies_Environmental_Monitoring" 1753746422.90601 0
+  "Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.aux" 1753746422 2425 cda3b49006cc3cea07c5cf28d5d633fc "pdflatex"
+  "Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.tex" 1753746421 20657 4de17e2c40356dde20b62236315bb734 ""
   "IEEEtran.cls" 1753031174 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/Klaus/Documents/Projetos/SEPOC Digest/Digest_SEPOC.tex" 1753023229 20920 fb784d6ad3d0477e615f5f9dadfe16cd ""
+  "c:/Users/Klaus/Documents/Projetos/SEPOC Digest/Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.tex" 1753746421 20657 4de17e2c40356dde20b62236315bb734 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1741047798 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1741048570 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1741054685 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -81,7 +81,7 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1741055527 3352824 127e4e119ca57e98101e0f88a5295980 ""
   "c:/texlive/2024/texmf.cnf" 1741055327 713 e69b156964470283e0530f5060668171 ""
   (generated)
-  "Digest_SEPOC.aux"
-  "Digest_SEPOC.log"
-  "Digest_SEPOC.pdf"
+  "Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.aux"
+  "Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.log"
+  "Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.pdf"
   (rewritten before read)

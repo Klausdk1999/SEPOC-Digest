@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.3)  20 JUL 2025 11:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.3)  28 JUL 2025 20:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Klaus/Documents/Projetos/SEPOC Digest/Digest_SEPOC.tex"
-(c:/Users/Klaus/Documents/Projetos/SEPOC Digest/Digest_SEPOC.tex
+**"c:/Users/Klaus/Documents/Projetos/SEPOC Digest/Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.tex"
+(c:/Users/Klaus/Documents/Projetos/SEPOC Digest/Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (./IEEEtran.cls
@@ -23,7 +23,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 50
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ** ATTENTION: Single column mode is not typically used with IEEE publications.
--- Using 210mm x 297mm (a4) paper.
+-- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen144
 -- This is a 12 point document.
@@ -220,46 +220,46 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [english].
 
-(./Digest_SEPOC.aux)
-\openout1 = `Digest_SEPOC.aux'.
+(./Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.aux)
+\openout1 = `Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
 
--- Lines per column: 30 (approximate, difference = 20.77364pt).
+-- Lines per column: 28 (approximate, difference = 16.77191pt).
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=702.78308pt
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
 * \topmargin=-31.74774pt
 * \headheight=12.0pt
 * \headsep=18.60963pt
 * \topskip=13.92pt
-* \footskip=67.3148pt
+* \footskip=42.27637pt
 * \marginparwidth=20.0pt
 * \marginparsep=10.0pt
 * \columnsep=12.0pt
@@ -292,46 +292,42 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 107.
+
+LaTeX Warning: No \author given.
+
+
+
+[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 125.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 107.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 125.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Overfull \hbox (7.15952pt too wide) in paragraph at lines 113--113
- [] 
- []
-
-
-
 [2]
 
 [3]
-Overfull \hbox (4.65224pt too wide) in paragraph at lines 138--139
-[]\OT1/ptm/m/n/12 In **power con-sump-tion**, "Beat sen-sors" rep-re-sent an in-no-va-tive, ultra-low-power paradigm
- []
-
-
 
 [4]
-
-[5]
-Underfull \hbox (badness 2573) in paragraph at lines 258--261
+Underfull \hbox (badness 5667) in paragraph at lines 250--253
 []\OT1/ptm/m/n/9 A. Ghosh, D. Chakraborty, and A. Law, 'Ar-ti-fi-cial In-tel-li-gence in In-ter-net of Things,' CAAI Trans-ac-tions
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 258--261
+Underfull \hbox (badness 4543) in paragraph at lines 250--253
 \OT1/ptm/m/n/9 on In-tel-li-gence Tech-nol-ogy, vol. 3, pp. 208--218, Dec. 2018. doi: 10.1049/trit.2018.1008. [On-line]. Avail-able:
  []
 
 
 
-[6]
+[5]
+Underfull \hbox (badness 2653) in paragraph at lines 262--263
+[]\OT1/ptm/m/n/9 Koulamas, C., & Lazarescu, M. (2018). Real-time em-bed-ded sys-tems: Present and fu-ture. Elec-tron-ics, 9, 205.
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -345,25 +341,25 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[7] (./Digest_SEPOC.aux)
+[6] (./Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4764 strings out of 473200
- 74003 string characters out of 5720279
- 483560 words of memory out of 5000000
+ 4762 strings out of 473200
+ 74531 string characters out of 5720279
+ 483662 words of memory out of 5000000
  27962 multiletter control sequences out of 15000+600000
- 580216 words of font info for 81 fonts, out of 8000000 for 9000
+ 578060 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,808b,249s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,885b,249s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Digest_SEPOC.pdf (7 pages, 79373 bytes).
+Output written on Digest_SEPOC_Trends_Technologies_Environmental_Monitoring.pdf (6 pages, 78846 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-% \documentclass[conference,onecolumn,a4paper,romanappendices,12pt,english,nofonttune]{IEEEtran}
+% \documentclass[conference,onecolumn,letterpaper,romanappendices,12pt,english,nofonttune]{IEEEtran}
 % \IEEEoverridecommandlockouts
 
 % \usepackage{cite}
@@ -82,11 +82,10 @@
 % \end{thebibliography}
 % \vspace{12pt}
 % \end{document}
-\documentclass[conference,onecolumn,a4paper,12pt,english,nofonttune]{IEEEtran}
+\documentclass[conference,onecolumn,letterpaper,12pt,english,nofonttune]{IEEEtran}
 \IEEEoverridecommandlockouts
-
 % --- Packages for formatting ---
-\usepackage[a4paper, margin=2.5cm]{geometry} % Sets 2.5 cm margins
+\usepackage[letterpaper, margin=2.5cm]{geometry} % Sets 2.5 cm margins
 \usepackage{setspace} % For double spacing
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
@@ -101,14 +100,7 @@
 \doublespacing
     
 \begin{document}
-
 \title{Trends and Technologies in Environmental Monitoring: A Review of Sensors, Communication, and AI-Enabled Systems*}
-
-\thanks{This work was supported by the National Council for Scientific and Technological Development (CNPq).}
-
-\vspace{30pt}
-\author{\IEEEauthorblockN{\color{red} THIS IS A BLIND REVIEW. DO NOT INCLUDE AUTHOR INFORMATION!!!}}
-\vspace{30pt}
 
 \maketitle
 
@@ -128,16 +120,16 @@ When we talk about environmental monitoring, we refer to a wide range of applica
 While many reviews focus on specific aspects such as soil sensors or water level measurement, few provide an integrated perspective combining sensing technologies, communication infrastructures, energy efficiency, artificial intelligence, and security. This review addresses that gap by consolidating advances across soil, water, and air monitoring domains to highlight overlooked technologies and guide future research toward scalable, intelligent, and resilient environmental monitoring solutions.
 
 \section{REVIEW OF SENSING TECHNOLOGIES}
-A wide array of sensing technologies is available for environmental monitoring, each with distinct advantages and use cases. For **water level monitoring**, conventional methods like limnigraphs face reliability issues in harsh conditions \cite{santana_2024_development}. Non-contact ultrasonic sensors have been proven as a viable, low-cost option for short-range measurements \cite{mohammadrezamasoudimoghaddam_2024_a}, while LiDAR offers superior accuracy and range, though its performance can be temperature-dependent \cite{paul_2020_a}. For large-scale monitoring, satellite-based remote sensing provides high consistency with in-situ data \cite{jiang_2024_monitoring, ali_2024_satellite}.
+A wide array of sensing technologies is available for environmental monitoring, each with distinct advantages and use cases. For water level monitoring, conventional methods like limnigraphs face reliability issues in harsh conditions \cite{santana_2024_development}. Non-contact ultrasonic sensors have been proven as a viable, low-cost option for short-range measurements \cite{mohammadrezamasoudimoghaddam_2024_a}, while LiDAR offers superior accuracy and range, though its performance can be temperature-dependent \cite{paul_2020_a}. For large-scale monitoring, satellite-based remote sensing provides high consistency with in-situ data \cite{jiang_2024_monitoring, ali_2024_satellite}.
 
-In **water quality**, recent developments include WSN nodes that use embedded machine learning to classify pollutants based on pH, turbidity, and EC sensor data \cite{ferreira_2023_conception}. For **soil monitoring**, batteryless technologies using NFC \cite{boada_2018_batteryless} and advanced optical fiber methods like AH-OFDR \cite{sun_2024_highresolution} are emerging. Finally, for **air quality and chemical detection**, Surface Acoustic Wave (SAW) sensors show promise for detecting gases and vapors \cite{devkota_2017_saw}, while reviews of low-cost sensors (LCS) confirm their potential to expand spatial coverage for monitoring pollutants like CO, O$_3$, and PM$_{2.5}$ \cite{karagulian_2019_review}.
+In water quality, recent developments include WSN nodes that use embedded machine learning to classify pollutants based on pH, turbidity, and EC sensor data \cite{ferreira_2023_conception}. For soil monitoring, batteryless technologies using NFC \cite{boada_2018_batteryless} and advanced optical fiber methods like AH-OFDR \cite{sun_2024_highresolution} are emerging. Finally, for air quality and chemical detection, Surface Acoustic Wave (SAW) sensors show promise for detecting gases and vapors \cite{devkota_2017_saw}, while reviews of low-cost sensors (LCS) confirm their potential to expand spatial coverage for monitoring pollutants like CO, O$_3$, and PM$_{2.5}$ \cite{karagulian_2019_review}.
 
 \section{KEY CHALLENGES AND EMERGING TRENDS}
-Beyond specific sensors, systemic challenges and trends shape the future of environmental monitoring. For **large area monitoring**, mobile data collection using vehicles equipped with RFID readers \cite{deng_2020_novel} or drones serving as LoRa gateways \cite{caruso_2021_drone} presents a scalable alternative to fixed WSNs.
+Beyond specific sensors, systemic challenges and trends shape the future of environmental monitoring. For large area monitoring, mobile data collection using vehicles equipped with RFID readers \cite{deng_2020_novel} or drones serving as LoRa gateways \cite{caruso_2021_drone} presents a scalable alternative to fixed WSNs.
 
-In **power consumption**, "Beat sensors" represent an innovative, ultra-low-power paradigm where sensor data is encoded in the time interval between simple ID code transmissions. This approach has demonstrated a battery life of over seven years in some applications and has been adapted for solar-powered, battery-less water level monitoring with a 2 km LoRa range \cite{ishibashi_2017_beat, ishibashi_2019_long, dao_2025_lowcost}.
+In power consumption, "Beat sensors" represent an innovative, ultra-low-power paradigm where sensor data is encoded in the time interval between simple ID code transmissions. This approach has demonstrated a battery life of over seven years in some applications and has been adapted for solar-powered, battery-less water level monitoring with a 2 km LoRa range \cite{ishibashi_2017_beat, ishibashi_2019_long, dao_2025_lowcost}.
 
-The integration of artificial intelligence, or **AIoT**, is a major trend, enabling smarter, context-aware sensors and predictive analytics \cite{ghosh_2018_artificial, mukhopadhyay_2021_artificial}. However, this integration elevates the importance of **security and privacy**. The constrained nature of embedded systems often leads to security being an afterthought, creating vulnerabilities to both software and hardware-level attacks that can compromise entire networks \cite{pimentel_2017_exploring, koulamas_2018_realtime, fournaris_2017_exploiting}.
+The integration of artificial intelligence, or AIoT, is a major trend, enabling smarter, context-aware sensors and predictive analytics \cite{ghosh_2018_artificial, mukhopadhyay_2021_artificial}. However, this integration elevates the importance of security and privacy. The constrained nature of embedded systems often leads to security being an afterthought, creating vulnerabilities to both software and hardware-level attacks that can compromise entire networks \cite{pimentel_2017_exploring, koulamas_2018_realtime, fournaris_2017_exploiting}.
 
 \section{CONCLUSIONS AND CONTRIBUTIONS}
 This review consolidates recent advances across a wide spectrum of environmental monitoring technologies, providing an integrated perspective that connects sensor development with communication infrastructures and systemic challenges. We identify a clear trend towards more autonomous, intelligent, and energy-efficient systems capable of operating in remote and harsh environments.
